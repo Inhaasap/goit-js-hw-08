@@ -1,0 +1,50 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 480px;
+  padding: 12px;
+  margin-top: 30px;
+  margin-left: 30px;
+
+  background-color: rgb(232, 242, 251);
+  border: 2px solid rgba(9, 9, 9, 0.936);
+  box-shadow: -5px -5px 10px #f5f110, 5px 5px 10px #077ff7;
+  border-radius: 20px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  color: #070809;
+  text-shadow: 1px 1px 1px rgb(248, 239, 239);
+  border-radius: 20px;
+}
+
+.feedback-form button {
+  padding: 8px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font: inherit;
+  border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.feedback-form button {
+  padding: 10px 12px;
+  color: #0b0b09;
+  box-shadow: -1px -1px 5px #077ff7, 1px 1px 5px #f5f110;
+  cursor: pointer;
+  font: inherit;
+  border-radius: 10px;
+}
